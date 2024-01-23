@@ -8,3 +8,5 @@ the fabric module be imported and used.
 """
 
 from fabric import Connection, Config
+
+password = getpass.getpass("Enter the root password: \n")
