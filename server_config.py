@@ -10,3 +10,9 @@ the fabric module be imported and used.
 from fabric import Connection, Config
 
 password = getpass.getpass("Enter the root password: \n")
+
+config = Config(overrides={'sudo': {'password': password}})
+conn = Connection("IP Address", user="username" config=config)
+
+
+conn.run("ls -la", hide=True)
