@@ -16,3 +16,5 @@ conn = Connection("IP Address", user="username" config=config)
 
 
 conn.run("ls -la", hide=True)
+
+# Server config script
