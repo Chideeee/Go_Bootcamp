@@ -1,0 +1,5 @@
+age = input("Enter Your Age \n")
+name = input("What is our name? ")
+length = len(name)
+print(name + " You are " + age + " years old")
+print("Your Name has " + str(length) + " characters")

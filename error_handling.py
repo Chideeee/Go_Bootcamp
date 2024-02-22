@@ -3,3 +3,5 @@ try:
 except (ValueError, ZeroDivisionError):
     print("Please enter a number for your age.")
 print(age)
+
+print("Goodbye!")

@@ -1,0 +1,8 @@
+print("Welcome to the Band name Generator Program.\n" " ")
+city_name = input("What's the name of the city you grew up in? \n")
+print()
+pet_name = input("What's your pet's name? \n")
+print()
+print("Your band name can be called " + city_name + " " + pet_name)
+print()
+print("String Concatenation is done with the '+' sign. ")
